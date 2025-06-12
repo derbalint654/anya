@@ -33,7 +33,7 @@
       margin: 10px 0;
     }
     .card .subtitle {
-      font-size: 21px;
+      font-size: 16px;
       font-weight: bold;
       color: #ff6f91;
       border: 2px dashed pink;
@@ -97,3 +97,19 @@
       padding: 10px;
       margin: 20px 0;
  }
+ @media screen and (max-width: 600px) { 
+
+body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-image: url(../images/hatterkep2.png); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+}
